@@ -4,7 +4,7 @@ and we solve this problem every time the same way.
 With go async we can run the CyclicAsyncService and inject several actions that
 will be executed in a cyclic fashion in an interval configured by the Config.
 
-##Cyclic service
+## Cyclic service
 
 A cyclic service runs the actions you set in the array of actions and it is executed
 until you call the Stop() method.
